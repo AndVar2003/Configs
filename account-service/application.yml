@@ -1,7 +1,8 @@
 account:
   minimum:
     balance: 50
-datasource:
+spring:
+  datasource:
     url: jdbc:postgresql://localhost:5432/accounts
     username: postgres
     password: eh09km11
