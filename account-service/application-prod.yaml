@@ -3,6 +3,7 @@ account:
     balance: 50
 spring:
   datasource:
+    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/accounts
     username: postgres
     password: eh09km11
