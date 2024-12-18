@@ -7,3 +7,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/accounts
     username: postgres
     password: eh09km11
+  jpa:
+    properties:
+        hibernate:
+            dialect: org.hibernate.dialect.PostgreSQLDialect
