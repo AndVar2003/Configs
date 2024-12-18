@@ -1,1 +1,3 @@
-
+account:
+  minimum:
+    balance: 50
